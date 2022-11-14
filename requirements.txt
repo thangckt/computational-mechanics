@@ -1,5 +1,5 @@
 ## Work with jupyter-book==0.11.3 + jinja2==3.0.0
-jupyter-book==0.11.3
+jupyter-book==0.13.1
 jinja2==3.0.0
 ghp-import
 numpy
