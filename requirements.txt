@@ -1,6 +1,6 @@
 jupyter-book
 ghp-import
-jupytext
+myst-nb
 numpy
 matplotlib
 scipy
