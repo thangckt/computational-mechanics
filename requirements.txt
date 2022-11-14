@@ -1,8 +1,7 @@
-jupyter-book==0.13.1
+jupyter-book==0.12
 ghp-import
 numpy
 matplotlib
 scipy
 pandas
-sympy
-myst-parser==0.18.1
+# sympy
