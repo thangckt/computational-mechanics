@@ -131,8 +131,8 @@ def montecarlopi(N):
     '''
     
 
-    x = rng.random(N,1);
-    y = rng.random(N,1);
+    x = rng.random(N);
+    y = rng.random(N);
     R=np.sqrt(x**2+y**2); # compute radius
     num_in_circle=sum(R<1);
     total_num_pts =len(R);
@@ -140,7 +140,7 @@ def montecarlopi(N):
     return our_pi
 ```
 
-```
+```{code-cell} ipython3
 test_pi=np.zeros(10)
 for i in range(0,10):
     test_pi[i]=montecarlopi(1000);
