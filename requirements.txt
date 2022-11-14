@@ -5,4 +5,4 @@ matplotlib
 scipy
 pandas
 sympy
-myst-parser==0.13.7
+myst-parser==0.18.1
