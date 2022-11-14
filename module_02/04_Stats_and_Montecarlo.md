@@ -140,7 +140,7 @@ def montecarlopi(N):
     return our_pi
 ```
 
-```{code-cell} ipython3
+```
 test_pi=np.zeros(10)
 for i in range(0,10):
     test_pi[i]=montecarlopi(1000);
