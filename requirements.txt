@@ -1,4 +1,6 @@
 jupyter-book
+ghp-import
+jupytext
 numpy
 matplotlib
 scipy
