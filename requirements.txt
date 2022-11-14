@@ -5,4 +5,4 @@ matplotlib
 scipy
 pandas
 sympy
-jinja2==3.0.0
+docutils==0.15.2
