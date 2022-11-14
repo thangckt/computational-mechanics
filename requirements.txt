@@ -1,6 +1,7 @@
-jupyter-book==0.11.3
+jupyter-book
 ghp-import
 numpy
 matplotlib
 scipy
 pandas
+sympy
