@@ -2,8 +2,6 @@
 _build
 # ignore any jupyter checkpoints
 .ipynb_checkpoints/*
-*/.ipynb_checkpoints/*
-# ignore *.ipynb notebooks, but keep the myst-nb versions
-*.ipynb
-*/*.ipynb
+**/.ipynb_checkpoints/
+**/__cache__/
 
