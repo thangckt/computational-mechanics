@@ -1,7 +1,6 @@
+[thangckt convert available at this link](https://thangckt.github.io/lec_comp_mechanics)
+
 # Computational Mechanics
-> __Note__: This Open Educational Resource was built with
-[Jupyter-Book](https://jupyterbook.org) __Check it out -->__ [![Jupyter Book
-Badge](images/badge.svg)](https://cooperrc.github.io/computational-mechanics/README.html)
 
 Greetings!
 
@@ -12,16 +11,14 @@ with an [open source
 license](https://creativecommons.org/licenses/by/4.0/) so after you fork
 the repository its __yours__! You can build your own website, notebooks,
 etc. and share them with anyone you meet. Just make sure you link back
-to this course website. 
-
-
+to this course website.
 
 ### JupyterHub server: <https://compmech.uconn.edu/>
 
 Join us on the Course GitHub
 [Discussions](https://github.com/cooperrc/computational-mechanics/discussions).
 
-Welcome to Computational Mechanics! 
+Welcome to Computational Mechanics!
 
 This project is a collection of learning modules in engineering computations for
 undergraduate students. These materials are a combination of work from [Prof.
@@ -29,7 +26,7 @@ Ryan C. Cooper](https://cooperrc.github.io) at the University of
 Connecticut Mechanical Engineering Department and the [Engineering Computations
 Modules](https://github.com/engineersCode/EngComp) from Prof. Lorena A. Barba
 and doctoral student Natalia C. Clement at the George Washington University,
-Mechanical and Aerospace Engineering Department. 
+Mechanical and Aerospace Engineering Department.
 
 Each learning module is made up of three or four lessons, written as Jupyter
 notebooks. We address an area of application or skills in computing in each
@@ -39,7 +36,7 @@ programming language.
 The overall goal of the course is to frame engineering problems as
 computational methods. Once we can communicate our engineering problems to
 Python code (or any other computer language) we use standard
-computational methods to solve those problems. 
+computational methods to solve those problems.
 
 ## [View the current syllabus](./syllabus.md) $\leftarrow$ _click here_
 
@@ -77,7 +74,6 @@ scrolling="no"></iframe>
 - Continue creating functions that are physical models
 - Solve 1D and 2D partial differential equations with finite difference
   approximations
-
 
 ## License
 
