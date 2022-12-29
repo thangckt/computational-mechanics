@@ -1,3 +1,10 @@
+#######################################################################################
+# A default configuration that will be loaded for all jupyter books
+# Users are expected to override these values in their own `_config.yml` file.
+# This is also the "master list" of all allowed keys and values.
+# see more: https://jupyterbook.org/en/stable/customize/config.html
+
+#######################################################################################
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
@@ -8,11 +15,12 @@ logo: comp-mech-logo.svg
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: force
+  execute_notebooks: 'off'     # 'off' force
 parse:
   myst_enable_extensions: #true
     - amsmath
     - colon_fence
+    - deflist
     - dollarmath
     - html_admonition
     - html_image
@@ -28,6 +36,7 @@ parse:
 latex:
   latex_documents:
     targetname: book.tex
+  use_jupyterbook_latex     : true
 
 
 launch_buttons:
@@ -46,6 +55,6 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  favicon: spiderman-favicon.png
-  use_issues_button: true
-  use_repository_button: true
+  # favicon: spiderman-favicon.png
+  use_issues_button: false
+  use_repository_button: false
